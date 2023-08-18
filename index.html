@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baap er bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+
+</head>
+
+<body class="max-w-screen-xl mx-auto">
+    <h1 class="text-4xl text-center md:mt-24 md:mb-10 px-20 md:text-4xl my-6 ">Welcome To My <span class="text-violet-400 font-medium">Baap Er Bank</span> !!!</h1>
+
+    <section class="bg-green-200 rounded-2xl">
+        <form class=" mt-2 w-4/6 mx-auto py-6 ">
+            <div class="mb-6 ">
+                <h3 class="text-2xl">Please login </h3>
+                <label for="email" class="block mt-6 mb-2  text-sm font-medium text-gray-900 ">Your email</label>
+                <input type="email" id="user-email"
+                    class="bg-gray-50 border  border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Type ths email 'Tonmoymspc@gmail.com'" required>
+            </div>
+            <div class="mb-6">
+                <label for="password" class="block mb-2 text-sm font-medium text-gray-900 ">Your
+                    password</label>
+                <input type="password" id="user-password"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Type ths password 'Tonmoy#001'" required>
+            </div>
+            <div class="flex items-start mb-6">
+                <div class="flex items-center h-5">
+                    <input id="remember" type="checkbox" value=""
+                        class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800"
+                        required>
+                </div>
+                <label for="remember" class="ml-2 text-sm font-medium ">Remember me</label>
+            </div>
+            <button id="submit-btn" type="submit"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+        </form>
+    </section>
+    
+
+    
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
